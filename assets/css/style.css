@@ -374,7 +374,7 @@ section {
 # Contact Gallery Section
 --------------------------------------------------------------*/
 
-.icon-circle .fa {
+.icon-circle .fa-brands {
   font-size: 25px;
   color: #e84700;
   margin: 0 auto;
@@ -391,7 +391,7 @@ section {
   transition: all ease-in-out 0.2s, background-color ease-in-out 0.05s;
 }
 
-.icon-circle .fa:hover {
+.icon-circle .fa-brands:hover {
   background-color: #e84700;
   color: #fff;
   border: 1px solid #e84711;
@@ -416,7 +416,7 @@ section {
   #contactgallery{
     width: 90%;
   }
-  .icon-circle .fa {
+  .icon-circle .fa-brands {
     font-size: 15px;
     color: #e84700;
     margin: 0 auto;
@@ -433,7 +433,7 @@ section {
     transition: all ease-in-out 0.2s, background-color ease-in-out 0.05s;
   }
 
-  .icon-circle .fa:hover {
+  .icon-circle .fa-brands:hover {
     background-color: #e84700;
     color: #fff;
     border: 1px solid #e84711;
@@ -455,45 +455,45 @@ section {
   }
 }
 
-.ifacebook .fa {
+.ifacebook .fa-brands {
   color: #3b5998;
   border: 2px solid #3b5998;
 }
 
-.ifacebook .fa:hover {
+.ifacebook .fa-brands:hover {
   background-color: #3b5998;
   color: #fff;
   border: 1px solid #3b5998;
 }
 
-.itwittter .fa {
+.itwittter .fa-brands {
   color: #33ccff;
   border: 2px solid #33ccff;
 }
 
-.itwittter .fa:hover {
+.itwittter .fa-brands:hover {
   background-color: #33ccff;
   color: #fff;
   border: 1px solid #33ccff;
 }
 
-.igithub .fa {
+.igithub .fa-brands {
   color: #333;
   border: 2px solid #333;
 }
 
-.igithub .fa:hover {
+.igithub .fa-brands:hover {
   background-color: #171515;
   color: #fff;
   border: 1px solid #333;
 }
 
-.iinsta .fa {
+.iinsta .fa-brands {
   color: #cc2366;
   border: 2px solid #cc2366;
 }
 
-.iinsta .fa:hover {
+.iinsta .fa-brands:hover {
   background: #f09433;
   background: -moz-linear-gradient(
     45deg,
@@ -524,12 +524,12 @@ section {
   border: 1px solid #cc2366;
 }
 
-.iLinkedin .fa {
+.iLinkedin .fa-brands {
   color: #007bb7;
   border: 2px solid #007bb7;
 }
 
-.iLinkedin .fa:hover {
+.iLinkedin .fa-brands:hover {
   background-color: #007bb7;
   color: #fff;
   border: 1px solid #007bb7;

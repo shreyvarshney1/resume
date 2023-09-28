@@ -237,7 +237,12 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg.webp") top center;
+  /* background: url("../img/hero-bg.jpg.webp") top center; */
+  /* background: linear-gradient(109.5deg, rgb(13, 11, 136) 9.4%, rgb(86, 255, 248) 78.4%); */
+  /* background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%); */
+  /* background: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+  /* background: linear-gradient(to top, #00c6fb 0%, #005bea 100%); */
+  background: linear-gradient(179.2deg, rgb(21, 21, 212) 0.9%, rgb(53, 220, 243) 95.5%);
   background-size: cover;
 }
 
@@ -378,7 +383,7 @@ section {
 # Contact Gallery Section
 --------------------------------------------------------------*/
 
-.icon-circle .fa {
+.icon-circle .fa-brands {
   font-size: 25px;
   color: #e84700;
   margin: 0 auto;
@@ -395,7 +400,7 @@ section {
   transition: all ease-in-out 0.2s, background-color ease-in-out 0.05s;
 }
 
-.icon-circle .fa:hover {
+.icon-circle .fa-brands:hover {
   background-color: #e84700;
   color: #fff;
   border: 1px solid #e84711;
@@ -420,7 +425,7 @@ section {
   #contactgallery{
     width: 90%;
   }
-  .icon-circle .fa {
+  .icon-circle .fa-brands {
     font-size: 15px;
     color: #e84700;
     margin: 0 auto;
@@ -437,7 +442,7 @@ section {
     transition: all ease-in-out 0.2s, background-color ease-in-out 0.05s;
   }
 
-  .icon-circle .fa:hover {
+  .icon-circle .fa-brands:hover {
     background-color: #e84700;
     color: #fff;
     border: 1px solid #e84711;
@@ -459,45 +464,45 @@ section {
   }
 }
 
-.ifacebook .fa {
+.ifacebook .fa-brands {
   color: #3b5998;
   border: 2px solid #3b5998;
 }
 
-.ifacebook .fa:hover {
+.ifacebook .fa-brands:hover {
   background-color: #3b5998;
   color: #fff;
   border: 1px solid #3b5998;
 }
 
-.itwittter .fa {
+.itwittter .fa-brands {
   color: #33ccff;
   border: 2px solid #33ccff;
 }
 
-.itwittter .fa:hover {
+.itwittter .fa-brands:hover {
   background-color: #33ccff;
   color: #fff;
   border: 1px solid #33ccff;
 }
 
-.igithub .fa {
+.igithub .fa-brands {
   color: #333;
   border: 2px solid #333;
 }
 
-.igithub .fa:hover {
+.igithub .fa-brands:hover {
   background-color: #171515;
   color: #fff;
   border: 1px solid #333;
 }
 
-.iinsta .fa {
+.iinsta .fa-brands {
   color: #cc2366;
   border: 2px solid #cc2366;
 }
 
-.iinsta .fa:hover {
+.iinsta .fa-brands:hover {
   background: #f09433;
   background: -moz-linear-gradient(
     45deg,
@@ -528,12 +533,12 @@ section {
   border: 1px solid #cc2366;
 }
 
-.iLinkedin .fa {
+.iLinkedin .fa-brands {
   color: #007bb7;
   border: 2px solid #007bb7;
 }
 
-.iLinkedin .fa:hover {
+.iLinkedin .fa-brands:hover {
   background-color: #007bb7;
   color: #fff;
   border: 1px solid #007bb7;

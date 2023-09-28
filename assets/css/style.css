@@ -196,6 +196,10 @@ h6 {
 .nav-menu li:hover>a i {
   color: #149ddd;
 }
+.nav-menu i{
+  padding: 0px 50px;
+  margin: 5px 5px;
+}
 
 /* Mobile Navigation */
 .mobile-nav-toggle {
@@ -374,7 +378,7 @@ section {
 # Contact Gallery Section
 --------------------------------------------------------------*/
 
-.icon-circle .fa-brands {
+.icon-circle .fa {
   font-size: 25px;
   color: #e84700;
   margin: 0 auto;
@@ -391,7 +395,7 @@ section {
   transition: all ease-in-out 0.2s, background-color ease-in-out 0.05s;
 }
 
-.icon-circle .fa-brands:hover {
+.icon-circle .fa:hover {
   background-color: #e84700;
   color: #fff;
   border: 1px solid #e84711;
@@ -416,7 +420,7 @@ section {
   #contactgallery{
     width: 90%;
   }
-  .icon-circle .fa-brands {
+  .icon-circle .fa {
     font-size: 15px;
     color: #e84700;
     margin: 0 auto;
@@ -433,7 +437,7 @@ section {
     transition: all ease-in-out 0.2s, background-color ease-in-out 0.05s;
   }
 
-  .icon-circle .fa-brands:hover {
+  .icon-circle .fa:hover {
     background-color: #e84700;
     color: #fff;
     border: 1px solid #e84711;
@@ -455,45 +459,45 @@ section {
   }
 }
 
-.ifacebook .fa-brands {
+.ifacebook .fa {
   color: #3b5998;
   border: 2px solid #3b5998;
 }
 
-.ifacebook .fa-brands:hover {
+.ifacebook .fa:hover {
   background-color: #3b5998;
   color: #fff;
   border: 1px solid #3b5998;
 }
 
-.itwittter .fa-brands {
+.itwittter .fa {
   color: #33ccff;
   border: 2px solid #33ccff;
 }
 
-.itwittter .fa-brands:hover {
+.itwittter .fa:hover {
   background-color: #33ccff;
   color: #fff;
   border: 1px solid #33ccff;
 }
 
-.igithub .fa-brands {
+.igithub .fa {
   color: #333;
   border: 2px solid #333;
 }
 
-.igithub .fa-brands:hover {
+.igithub .fa:hover {
   background-color: #171515;
   color: #fff;
   border: 1px solid #333;
 }
 
-.iinsta .fa-brands {
+.iinsta .fa {
   color: #cc2366;
   border: 2px solid #cc2366;
 }
 
-.iinsta .fa-brands:hover {
+.iinsta .fa:hover {
   background: #f09433;
   background: -moz-linear-gradient(
     45deg,
@@ -524,12 +528,12 @@ section {
   border: 1px solid #cc2366;
 }
 
-.iLinkedin .fa-brands {
+.iLinkedin .fa {
   color: #007bb7;
   border: 2px solid #007bb7;
 }
 
-.iLinkedin .fa-brands:hover {
+.iLinkedin .fa:hover {
   background-color: #007bb7;
   color: #fff;
   border: 1px solid #007bb7;
